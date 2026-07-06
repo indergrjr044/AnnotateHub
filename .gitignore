@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Flutter specific ignores
+flutter_client/.dart_tool/
+flutter_client/.pub/
+flutter_client/.flutter-plugins
+flutter_client/.flutter-plugins-dependencies
+
+# Environment variables
+.env
+*.env.local
+
+# OS files
+.DS_Store
+Thumbs.db

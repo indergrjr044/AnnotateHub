@@ -1,0 +1,10 @@
+{
+  "name": "annotatehub-root",
+  "version": "1.0.0",
+  "description": "Root workspace for AnnotateHub Collaborative Document Annotation System",
+  "scripts": {
+    "install-all": "npm.cmd install --prefix server",
+    "server": "npm.cmd run dev --prefix server",
+    "dev": "npm.cmd run dev --prefix server"
+  }
+}
