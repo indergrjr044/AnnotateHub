@@ -15,7 +15,14 @@ class ApiService {
   User? _currentUser;
 
   ApiService() {
+    _initBaseUrl();
     _loadAuthData();
+  }
+
+  void _initBaseUrl() {
+    if (Uri.base.scheme.startsWith('http')) {
+      baseUrl = Uri.base.origin;
+    }
   }
 
   void setBaseUrl(String url) {
